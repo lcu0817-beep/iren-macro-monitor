@@ -1,15 +1,18 @@
 {
-  "updated_at": "2026-09-06 09:41 UTC",
+  "updated_at": "2026-09-06 09:52 UTC",
   "values": {
+    "us2y": 4.37,
+    "us10y": 4.78,
+    "us30y": 5.24,
     "iren": 44.68000030517578,
     "move": 73.0999984741211,
     "ndx": 29544.150390625,
     "sox": 11735.259765625,
     "wti": 91.4800033569336,
-    "gold": 4429.7998046875,
-    "copper": 6.5970001220703125,
+    "gold": 4476.60009765625,
+    "copper": 6.682499885559082,
     "dxy": 99.16000366210938,
-    "btc": 79906.1015625
+    "btc": 79869.921875
   },
   "momentum": {
     "ndx": {
@@ -31,16 +34,16 @@
       "vs50d": 12.9985411014639
     },
     "gold": {
-      "m1": 4.427152397159362,
-      "m3": 2.137366095870008,
-      "m6": -13.919284105938456,
-      "vs50d": 4.501451305440463
+      "m1": 5.530412486003056,
+      "m3": 3.2164348725865377,
+      "m6": -13.009851874138988,
+      "vs50d": 5.582182855938078
     },
     "copper": {
-      "m1": -1.3458902119312,
-      "m3": 5.324497438699005,
-      "m6": 14.590935505309899,
-      "vs50d": 2.7171721035301966
+      "m1": -0.06729344097526901,
+      "m3": 6.689545104903405,
+      "m6": 16.076079919796605,
+      "vs50d": 4.020732151011441
     },
     "dxy": {
       "m1": -0.8102406208893798,
@@ -49,18 +52,32 @@
       "vs50d": -1.0722790372997282
     },
     "btc": {
-      "m1": 27.20123495366591,
-      "m3": 25.74156372489298,
-      "m6": 1.7416677965238492,
-      "vs50d": 15.143547530994027
+      "m1": 27.14364109236813,
+      "m3": 25.68463076993246,
+      "m6": 1.6956014552228948,
+      "vs50d": 15.092613176783054
     }
   },
   "macro_lab_url": "",
-  "source_note": "FRED + Yahoo Finance Â· GitHub Actions refresh",
+  "source_note": "Rates: FRED â U.S. Treasury â Yahoo fallback. Markets: Yahoo Finance.",
+  "sources": {
+    "us2y": "U.S. Treasury",
+    "us10y": "U.S. Treasury",
+    "us30y": "U.S. Treasury",
+    "iren": "Yahoo Finance",
+    "move": "Yahoo Finance",
+    "ndx": "Yahoo Finance",
+    "sox": "Yahoo Finance",
+    "wti": "Yahoo Finance",
+    "gold": "Yahoo Finance",
+    "copper": "Yahoo Finance",
+    "dxy": "Yahoo Finance",
+    "btc": "Yahoo Finance"
+  },
   "warnings": [
-    "us2y unavailable",
-    "us10y unavailable",
-    "us30y unavailable",
-    "real10y unavailable"
+    "us2y: FRED failed",
+    "us10y: FRED failed",
+    "us30y: FRED failed",
+    "real10y: FRED failed"
   ]
 }
